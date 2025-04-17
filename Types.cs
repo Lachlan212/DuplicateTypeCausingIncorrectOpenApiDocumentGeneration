@@ -14,8 +14,8 @@ public record MapLink
 
 public record OverallDataContainer
 {
-    public DataContainer1? Container1 { get; init; }
-    public DataContainer2? Container2 { get; init; }
+    public required DataContainer1 Container1 { get; init; }
+    public required DataContainer2 Container2 { get; init; }
 }
 
 public record DataContainer1
