@@ -1,0 +1,6 @@
+@ReproduceOpenApiError_HostAddress = http://localhost:5023
+
+GET {{ReproduceOpenApiError_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
